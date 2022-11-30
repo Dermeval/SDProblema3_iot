@@ -15,3 +15,10 @@
 #define BUTTON_1 19 // Usado pra avançar
 #define BUTTON_2 23 // Usado pra voltar
 #define BUTTON_3 25 // Usado como clique/seleconar 
+
+int lcd;
+
+// Controles de navegação dos menus
+int opcaoMenu = 0;
+int opcaoMenuSensor = 1;
+int opcaoMenuIntervalo = 1;
